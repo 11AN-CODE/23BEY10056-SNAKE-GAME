@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Snake Game</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #2c3e50; margin: 0; color: white; flex-direction: column; }
+        canvas { border: 5px solid #ecf0f1; background-color: #000; box-shadow: 0 0 20px rgba(0,0,0,0.5); }
+        h1 { font-family: sans-serif; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Score: <span id="score">0</span></h1>
+    <canvas id="snakeGame" width="400" height="400"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
